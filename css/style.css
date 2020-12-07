@@ -1,3 +1,6 @@
+
+
+
 .bg {
     /* The image used */
     background-image: url("img/bg-img1.jpg");
@@ -886,8 +889,62 @@ body, html {
 }
 
 
-/* ///////////////////huda/////////////// */
+/* ///////////////////laiba page 2/////////////// */
+.titlediv {
+    padding-top: 30px;
+}
+
+.titlediv1 {
+    padding-top: 60px;
+}
+
+.title {
+    font-family: Mistral;
+    font-size: 40px;
+    color: white;
+}
+
+.black-post {
+    background: black;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 47px 47px 47px;
+}
+.videodiv {
+    width: 555px;
+    height: 400px;
 
 
+}
+.descrip1 {
+    font-family: Poppins-ExtraLight;
+    font-size: 25px;
+    color: black;
+    text-align: left;
+    line-height: 40px;
+    padding-top: 10px;
+}
+.block {
+    display: block;
+	text-align: center;
+}
+.descrip1 {
+    font-family: Poppins-ExtraLight;
+    font-sizepx;
+    color: black;
+    text-align: left;
+    line-height: 40px;
+    padding-top: 10px;
+}
+.videoInsert {
+    position: absolute;
+    right: 450px;
+    bottom: 20px;
+    min-width: 50%;
+    min-height: 50%;
+    width: auto;
+    height: auto;
+}
 
 
