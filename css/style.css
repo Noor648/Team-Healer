@@ -1002,12 +1002,6 @@ body, html {
     text-align: center;
     padding: 10px 47px 47px 47px;
 }
-.videodiv {
-    width: 555px;
-    height: 400px;
-
-
-}
 .descrip1 {
     font-family: Poppins-ExtraLight;
     font-size: 15px;
@@ -1043,6 +1037,24 @@ body, html {
     bottom: 20px;
     min-width: 50%;
     min-height: 50%;
+    width: auto;
+    height: auto;
+}
+/* /////////////  huda  ////////////////////*/
+.mot1{
+    padding: 30px 30px;
+    
+}
+.videodiv {
+    width: 555px;
+	height: 400px;
+}
+.videoInsert_h {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
     width: auto;
     height: auto;
 }
