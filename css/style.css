@@ -30,6 +30,12 @@
 
 }
 
+
+#main-content-general{
+	padding-top: 10px;
+
+}
+
 .bgC{
     background-attachment:fixed;
     background-size:100% 100%;
@@ -38,7 +44,7 @@
 #background { 
     position: absolute; 
     width: 100%;
-    height: 100%;  
+	height: 100%; 
     
  }
 .titlediv{
@@ -66,7 +72,8 @@
     padding-top: 10px;
 }
 .section-form{
-    padding: 70px 0;
+	padding: 70px 0;
+	
 }
 .form-outer{
     background: rgba(255,255,255,0.90);
@@ -86,7 +93,8 @@
 
 
 .f-right{
-    float: right;
+	float: right;
+	
 }
 
 
@@ -162,6 +170,18 @@ a {
     font-family: simple-line-icons;
     width: 28px;
     height: 28px;
+}
+
+.settings_icon_n{
+    font-family: simple-line-icons;
+    width: 28px;
+	height: 28px;
+	text-decoration: none;
+	
+}
+
+.settings_icon_n a{
+	text-decoration: none;
 }
 
 .logo-preview{
@@ -260,21 +280,19 @@ a {
     border-color: rgba(169,169,169,0.4);
 }
 
-.bottom{
-
-    padding-top: 120px;
-}
 
 .generalnav_n{
 
 	padding: 10px 20px;
-	border-bottom: 1.5px solid  #4CAF50;
+	border-bottom: 2px solid  #4CAF50;
 
 }
 
 
+
 .pad_nav_n{
 	padding: 0px 50px;
+	
 }
 
 
@@ -300,7 +318,7 @@ a {
 .logo-cut-intro_n{
 
 	width: 480px;
-	height: 400px;
+	height: 450px;
 
 }
 
@@ -312,6 +330,7 @@ a {
 
 .block-general{
 	text-align: left;
+	
 
 }
 
@@ -359,6 +378,41 @@ a {
   .drop_down:hover .dropdown-content {
 	display: block;
   }
+
+
+  
+
+.section-pakistan{
+	background-color: black;
+	opacity: 65%;
+    background-size: cover;
+    padding: 70px 0;
+}
+
+.section-reel .news{
+    background: #FFF;
+    margin: 0 8px;
+    padding: 12px;
+    overflow: hidden;
+}
+.section-reel .news img{
+    margin: -12px;
+    max-width: none;
+    width: 110%;
+    margin-bottom: 12px;
+}
+.section-reel h4{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.main_pakistan_n{
+	text-align: center;
+	color: white;
+	padding: 25px 0px;
+}
+
+
 
 
 /*///////////////////////////////laiba ////*/
