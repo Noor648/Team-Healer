@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healer</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <!-- Our stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript">
+
+        function appear(){
+
+            document.getElementById("myDiv").classList.toggle("bg-modal2");
+           
+        }
+
+        function close1(){
+            document.getElementById("myDiv").classList.toggle("bg-modal2");;
+        }
+
+        function changeImg(imgNumber) {
+            var myImages = ["img/bg-img1.jpg"];
+            var imgShown = document.body.style.backgroundImage;
+            var newImgNumber = Math.floor(Math.random() * myImages.length);
+            document.body.style.backgroundImage = 'url(' + myImages[newImgNumber] + ')';
+        }
+        window.onload = changeImg;
+    </script>
+</head>
+
+<body class="bg">
+    
+        
+        <div class="generalnav_n">
+
+            <a class="block-general">
+                <img src="img/logo-preview.png" alt="" id="menu-pop" class="logo-preview-general">
+            </a>
+            
+            <div class="f-right pad_n">
+                <a href="" class ="pad_nav_n">
+                    About Us
+                </a>
+                <a href="" class ="pad_nav_n">
+                    Contact Us
+                </a>
+
+                <a href="#"  class="f-right">
+                    <img src="assets/profile-icon.svg" alt="" id="menu-pop" class="settings" onclick="appear();">
+                </a>
+          
+            </div>
+        </div>
+
+        <div id="main-content-general">
+
+            <section class="section-form">
+
+
+                
+                    <div class="row">
+                        <div class="col-lg-4 offset-lg2 col-md-3 offset-md-2 col-sm-8 offset-sm-2 " >
+                            <div class="titlediv">
+                                <div class="descrip1">
+                                    <h2>Welcome to Healer</h2>
+                                       <b> Healer is the first ever online platform in Pakistan dedicated to serve the individuals affected by eating disorders with support, care and motivation they need in the path of recovery. 
+                                        Eating disorders are serious but treatable mental and physical illnesses that can affect people of all genders, ages, races, religions, ethnicities, body shapes and weights. They are widely misunderstood illnesses and support options are often inaccessible, especially in Pakistan. As a result, too many people are left feeling helpless, hopeless, and frightened. Healer's services are here to help raise awareness, induce healthy lifestyle and motivate you or your loved ones suffering from these disorders through the journey of healing. We know that the path to recovery is hard and first steps are always the hardest. That's okay. Healer cares for you and will always be by your side when taking baby steps towards your recovery. Join our hands to seek hope, together!
+                                        Recovery is possible and Healer believes that you can do it!
+                                        So, shall we begin our journey?</b>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="col-lg-2 offset-lg-1 col-md-5 offset-md-1 col-sm-8 offset-sm-2 " >
+                            <div class="logo-cut_n">
+                                
+                                <img src="img/logo-cut.png" alt="" id="menu-pop" class="logo-cut-intro_n" >
+                    
+                            </div>
+
+                        </div>
+                    </div>
+                
+                
+                <div onclick="close1();" class="bg-modal1" id="myDiv">
+                    
+                    <div class="form-outer" >
+                        <form method="POST" action="">
+                            <ul class="form-nav">
+                                <li>
+                                    <a href="signin.php">Sign In</a>
+                                </li>
+
+                                <li>
+                                    <a class="active" href="signup.php">Sign Up</a>
+                                </li>
+
+                            </ul>
+
+
+                            <div class="input-group">
+                                <input type="text" class="txt" name="name" id="name" placeholder="Your Name">
+                            </div>
+
+                            <div class="input-group">
+                                <input type="text" class="txt" name="email" id="email" placeholder="Email">
+                            </div>
+
+                            <div class="input-group">
+                                <input type="password" class="txt" name="password" id="password" placeholder="Password">
+                            </div>
+
+
+
+                            <div class="input-group mb-0">
+                                <button class="btn w-100">
+                                    Sign up
+                                </button>
+                            </div>
+
+                        </form>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="section-pakistan">
+                <div  class="container">    
+                    <div class="row">
+                        <div class="main_pakistan_n">
+                            <h2>
+                                Pakistan's First .....
+                            </h2>
+                            <p>A motivational site
+                                    
+                            By Team Healer,
+                        
+                            for    Anorexic people. 
+
+                            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
+
+                            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
+
+                            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
+
+                            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
+                        
+                            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
+                        
+                            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
+                        
+                            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
+
+                            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <br>
+                <br>
+                    <br>
+                    <br>
+                <br>
+            <br>
+        
+			<div class="row">
+                <div class="col-lg-2 offset-lg0 col-md-3 offset-md-2 col-sm-8 offset-sm-2 " >
+					<img src="img/Contactus.png" alt="" id="menu-pop" class="logo-cut-intro_n" >
+                </div>
+               
+                <div class="col-lg-4 offset-lg-2 col-md-5 offset-md-1 col-sm-8 offset-sm-2 " >
+                   <br>
+                    <h2>
+                        Contact Us
+                    </h2>
+                    <p> 
+                        Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...<br>
+
+                        Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...<br>
+
+                        Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...<br>
+
+                        Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...<br>
+
+                        Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...<br>
+
+                        Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...<br>
+
+                        Social Media Support,<br>
+                        <div target="_blank" class="bottom">
+                            <a href="#">
+                                <img src="assets/icon-facebook.png" alt="" id="menu-pop" class="settings">
+                            </a>
+                
+                            <a target="_blank" href="https://www.instagram.com/healer_is_here_/">
+                                <img src="assets/icons-Instagram.png" alt="" id="menu-pop" class="settings">
+                            </a>
+                
+                            <a target="_blank" href="#">
+                                <img src="assets/icons-twitter.png" alt="" id="menu-pop" class="settings">
+                            </a>
+                        </div>
+
+                </div>
+					
+			</div>
+			<br>
+				
+        </div>
+        
+        
+
+    
+
+</body>
+
+</html>
