@@ -947,7 +947,7 @@ body, html {
 
 .mot{
     width: 100%;
-    height: 100%;
+    height: 150%;
     padding: 30px 30px;
     border: solid #4CAF50;
 }
@@ -960,7 +960,18 @@ body, html {
       padding: 20px;
       width: 900px;
       height: 300px;
-      background-color: white;
+      background-color: none;
+}
+.stories_2{			
+    border: 1px solid;
+      padding: 10px;
+      box-shadow: 5px 10px #4CAF50;
+      border-radius: 25px;
+      border: 2px solid #4CAF50;
+      padding: 20px;
+      width: 900px;
+      height: 400px;
+      background-color: none;
 }
 
 .open-button {
@@ -1094,15 +1105,36 @@ body, html {
     padding-top: 10px;
 }
 
+.descrip1 {
+    font-family: Poppins-ExtraLight;
+
+    font-size:30px;
+
+    font-size: 15px;
+
+    color: black;
+    text-align: left;
+    line-height: 40px;
+    padding-top: 10px;
+}
+
 .videoInsert {
-    position: absolute;
-    right: 450px;
-    bottom: 20px;
+	padding-top: 60px;
+	
+    /*position: absolute;
+    right: 0px;
+    bottom: 0px;
     min-width: 50%;
     min-height: 50%;
     width: auto;
-    height: auto;
+    height: auto;*/
 }
+
+.videosize {
+	width: 700px;
+	height: 300px;
+}
+
 /* /////////////  huda  ////////////////////*/
 .mot1{
     padding: 30px 30px;
@@ -1121,5 +1153,6 @@ body, html {
     width: auto;
     height: auto;
 }
+
 
 
