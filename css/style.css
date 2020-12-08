@@ -931,20 +931,24 @@ body, html {
 }
 .descrip1 {
     font-family: Poppins-ExtraLight;
-    font-sizepx;
+    font-size:30px;
     color: black;
     text-align: left;
     line-height: 40px;
     padding-top: 10px;
 }
 .videoInsert {
-    position: absolute;
-    right: 450px;
-    bottom: 20px;
+	padding-top: 60px;
+	
+    /*position: absolute;
+    right: 0px;
+    bottom: 0px;
     min-width: 50%;
     min-height: 50%;
     width: auto;
-    height: auto;
+    height: auto;*/
 }
-
-
+.videosize {
+	width: 700px;
+	height: 300px;
+}
