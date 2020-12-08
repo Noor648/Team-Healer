@@ -946,7 +946,7 @@ body, html {
     padding: 30px 30px;
     
 }
-.stories{			
+/*.stories{			
     border: 1px solid;
       padding: 10px;
       box-shadow: 5px 10px #4CAF50;
@@ -955,7 +955,7 @@ body, html {
       padding: 20px;
       width: 900px;
       height: 300px;
-      background-color: none;
+      background-color: none;*/
 }
 .links{			
     border: 1px solid;
@@ -963,8 +963,6 @@ body, html {
       border-radius: 25px;
       border: none;
       padding: 30px;
-      /*width: 900px;
-      height: 300px;*/
       background-color: none;
 }
 .stories_2{			
