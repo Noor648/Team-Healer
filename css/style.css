@@ -1110,7 +1110,11 @@ body, html {
     line-height: 40px;
     padding-top: 10px;
 }
-
+.videosize {
+	position: absolute;
+width: 700px;
+height: 400px;
+}
 .videoInsert {
     position: absolute;
     right: 450px;
