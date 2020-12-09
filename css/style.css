@@ -916,9 +916,6 @@ body, html {
   margin: 0;
 }
 
-/*.navbar a:hover, .dropdown:hover .dropbtn {
-  backgroundground-color: none;
-}*/
 
 .dropdown-content {
   display: none;
@@ -951,17 +948,7 @@ body, html {
     height: 100%;
     padding: 30px 30px;
 }
-.stories{			
-    border: 1px solid;
-      padding: 10px;
-      box-shadow: 5px 10px #4CAF50;
-      border-radius: 25px;
-      border: 2px solid #4CAF50;
-      padding: 20px;
-      width: 900px;
-      height: 300px;
-	  background-color: white;
-	}
+
 
 .stories_2{			
     border: 1px solid;
@@ -1110,20 +1097,6 @@ body, html {
     line-height: 40px;
     padding-top: 10px;
 }
-.videosize {
-	position: absolute;
-width: 700px;
-height: 400px;
-}
-.videoInsert {
-    position: absolute;
-    right: 450px;
-    bottom: 30px;
-    min-width: 50%;
-    min-height: 50%;
-    width: auto;
-    height: auto;
-}
 /* /////////////  huda  ////////////////////*/
 .mot1{
     padding: 30px 30px;
@@ -1132,6 +1105,10 @@ height: 400px;
 .videodiv {
     width: 555px;
 	height: 400px;
+}
+.videodiv_h {
+    width: 50px;
+	height: 50px;
 }
 .videoInsert_h {
     position: absolute;
